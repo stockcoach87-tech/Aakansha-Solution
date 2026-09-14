@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact S R TRADERS</title>
+    <meta name="description" content="Contact S R TRADERS for insurance consultation, policy assistance, service enquiries and claims-related support.">
+    <meta property="og:title" content="Contact S R TRADERS">
+    <meta property="og:description" content="Get in touch with S R TRADERS for insurance service assistance.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#071321">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23071321'/%3E%3Ctext x='50' y='63' text-anchor='middle' font-family='Arial' font-size='38' font-weight='700' fill='%23c9a96e'%3ESR%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="navbar container">
+        <a href="index.html" class="brand"><span class="brand-mark">SR</span><span class="brand-text"><strong>S R TRADERS</strong><small>INSURANCE SERVICES</small></span></a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+        <div class="nav-menu"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="plans.html">Plans</a><a href="claims.html">Claims</a><a href="faq.html">FAQ</a><a href="contact.html" class="nav-cta">Get Consultation</a></div>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div class="container page-hero-content reveal">
+            <div class="eyebrow gold"><span></span> CONTACT</div>
+            <h1>Let's start with a <em>conversation.</em></h1>
+            <p>Tell S R TRADERS what you need help with and we'll discuss the appropriate next step.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container contact-grid">
+            <div class="contact-details reveal">
+                <div class="eyebrow"><span></span> GET IN TOUCH</div>
+                <h2>S R <em>TRADERS.</em></h2>
+                <p>For insurance enquiries, policy assistance, renewals and service-related questions, contact us directly.</p>
+
+                <div class="contact-item">
+                    <span class="contact-icon">☎</span>
+                    <div><small>Mobile</small><a href="tel:9831101569">+91 98311 01569</a></div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉</span>
+                    <div><small>Email</small><a href="mailto:shambhu.ioe@gmail.com">shambhu.ioe@gmail.com</a></div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">⌂</span>
+                    <div><small>Registered Address</small><address>5, PRATIKSHA, MANSURPUR,<br>HAJIPUR, SARAI, VAISHALI,<br>BIHAR - 844125</address></div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">№</span>
+                    <div><small>Udyam Registration</small><strong>UDYAM-BR-37-0001583</strong></div>
+                </div>
+            </div>
+
+            <div class="form-card reveal delay-1">
+                <div class="eyebrow"><span></span> ENQUIRY FORM</div>
+                <h2>How can we <em>help?</em></h2>
+
+                <form id="enquiryForm" novalidate>
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" autocomplete="name" required>
+                            <small class="field-error"></small>
+                        </div>
+                        <div class="form-field">
+                            <label for="mobile">Mobile Number *</label>
+                            <input type="tel" id="mobile" name="mobile" autocomplete="tel" inputmode="tel" required>
+                            <small class="field-error"></small>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                        <small class="field-error"></small>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label for="service">Service Required *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option>Health Insurance</option>
+                                <option>Life Insurance</option>
+                                <option>Motor Insurance</option>
+                                <option>Business Insurance</option>
+                                <option>Property Insurance</option>
+                                <option>Personal Protection</option>
+                                <option>Policy Assistance</option>
+                                <option>Insurance Consultation</option>
+                                <option>Claims Support</option>
+                                <option>Other Enquiry</option>
+                            </select>
+                            <small class="field-error"></small>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="contactMethod">Preferred Contact Method *</label>
+                            <select id="contactMethod" name="contactMethod" required>
+                                <option value="">Select preference</option>
+                                <option>Phone</option>
+                                <option>Email</option>
+                            </select>
+                            <small class="field-error"></small>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell us briefly what you would like assistance with."></textarea>
+                        <small class="field-error"></small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary form-submit">Submit Enquiry <span>→</span></button>
+                    <p class="form-note">This website form performs front-end validation only. It does not send or store your enquiry without a connected backend or form-processing service.</p>
+                    <div class="form-status" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div class="footer-brand"><a href="index.html" class="brand footer-logo"><span class="brand-mark">SR</span><span class="brand-text"><strong>S R TRADERS</strong><small>INSURANCE SERVICES</small></span></a><p>Customer-focused insurance consultation, policy assistance and service guidance.</p><div class="footer-registration">UDYAM-BR-37-0001583</div></div>
+        <div class="footer-column"><h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="plans.html">Plans</a><a href="claims.html">Claims</a><a href="faq.html">FAQ</a></div>
+        <div class="footer-column"><h4>Services</h4><a href="services.html">Health Insurance</a><a href="services.html">Life Insurance</a><a href="services.html">Motor Insurance</a><a href="services.html">Business Insurance</a><a href="services.html">Policy Assistance</a></div>
+        <div class="footer-column footer-contact"><h4>Contact</h4><a href="tel:9831101569">+91 98311 01569</a><a href="mailto:shambhu.ioe@gmail.com">shambhu.ioe@gmail.com</a><p>5, PRATIKSHA, MANSURPUR,<br>HAJIPUR, SARAI, VAISHALI,<br>BIHAR - 844125</p></div>
+    </div>
+    <div class="footer-bottom container"><span>© <span class="current-year"></span> S R TRADERS. All rights reserved.</span><div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms &amp; Disclosures</a></div></div>
+</footer>
+<button class="back-top" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
